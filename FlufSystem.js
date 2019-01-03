@@ -9,7 +9,7 @@ Fluf.user.setStatus("idle")
 
 
 Fluf.on('message', message => {
-    if (message.content.startsWith(!"Owner")) {
+    if (message.content.startsWith("!Owner")) {
 	    message.channel.send("Activating Owner Mode")
 if (message.author.id === "498186211249225728") {  
   message.channel.send("Hi and welcome to Fluf Bot Owner Mode! maintained by DogeOS")
