@@ -43,8 +43,7 @@ if (message.author.id === "441980353242988545") {
 message.channel.send("You will soon have BETA Command acess so fuck off and come back soon")
 }
 	    
-})
-
+});
 
 
 
