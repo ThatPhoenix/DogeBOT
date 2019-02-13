@@ -14,16 +14,44 @@ Fluf.on('message', message => {
 if (message.author.id === "498186211249225728") {  
   message.channel.send("Hi and welcome to Fluf Bot Owner Mode! maintained by DogeOS Created by ThatPhoenix")
 message.channel.send("The Current Owners of DogeOS is President Doge & ThatPhoenix")
-message.channel.send("The commands have not been created yet so fuck off and come back soon")
+message.channel.send("The Only command you have acces to is !Emergency")
 }
 	    if (message.author.id === "441980353242988545") {  
   message.channel.send("Hi and welcome to Fluf Bot Owner Mode! maintained by DogeOS Created by ThatPhoenix")
 message.channel.send("The Current Owners of DogeOS is President Doge & ThatPhoenix")
-message.channel.send("The commands have not been created yet so fuck off and come back soon")
+message.channel.send("The Only Command you have access to is !Emergency")
+		   
 }
+	    
+	
     }
     })
 
+
+
+Fluf.on('message', message => {
+    if (message.content.startsWith("!Emergency")) {
+	    message.channel.send("Authorizing Identity")
+
+	    if (message.author.id === "498186211249225728") {  
+  message.channel.send("Lockdown Squence Initated by DogeOS")
+	Fluf.user.setActivity("Emergency Lockdown - DogeOS")
+	Fluf.user.setStatus("dnd")
+message.channel.send("DogeOS - Emergency System Initilized")
+Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
+		 
+}
+	    if (message.author.id === "441980353242988545") {  
+message.channel.send("Lockdown Squence Initated by DogeOS")
+	Fluf.user.setActivity("Emergency Lockdown - DogeOS")
+	Fluf.user.setStatus("dnd")
+message.channel.send("DogeOS - Emergency System Initilized")
+Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
+	    }
+	    
+	
+    }
+    })
 
  Fluf.on('message', message => {
     if (message.content.startsWith("!Vip")) {   
