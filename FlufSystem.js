@@ -45,6 +45,29 @@ message.channel.send("You will soon have BETA Command access so fuck off and com
     }	    
 });
 
+Fluf.on('guildMemberAdd', member => {
+  // Send the message to a designated channel on a server:
+
+  const channel = member.guild.channels.find(ch => ch.name === 'welcomes');
+  // Do nothing if the channel wasn't found on this server
+  if (!channel) return;
+  // Send the message, mentioning the member
+
+  channel.send(`:tada: Never Going To Give ${member} Up Never Gonna Let ${member} Down.`);
+});
+
+
+Fluf.on('guildMemberRemove', member => {
+  // Send the message to a designated channel on a server:
+
+  const channel = member.guild.channels.find(ch => ch.name === 'welcomes');
+  // Do nothing if the channel wasn't found on this server
+  if (!channel) return;
+  // Send the message, mentioning the member
+
+  channel.send(`:sob: ${member} left, plz nerf ok.`);
+});
+
 
 
 
