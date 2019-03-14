@@ -42,9 +42,9 @@ message.channel.send("DogeOS - Emergency System Initilized")
 		    
 		    
 		    
-		    Fluf.destroy();
 Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
-		 
+		    Fluf.destroy();
+		       console.log("DogeOS - You were removed from Connection by DOGEOS")		 
 }
 	    if (message.author.id === "441980353242988545") {  
 message.channel.send("Lockdown Squence Initated by DogeOS")
@@ -55,8 +55,11 @@ message.channel.send("DogeOS - Emergency System Initilized")
 		    
 		    
 		    
-		    Fluf.destroy();
+		   
 		    Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
+		    
+		    Fluf.destroy();	
+		    console.log("DogeOS - You were removed from Connection by DOGEOS")
 	    }
 	    
 	
