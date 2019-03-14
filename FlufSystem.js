@@ -38,6 +38,11 @@ Fluf.on('message', message => {
 	Fluf.user.setActivity("Emergency Lockdown - DogeOS")
 	Fluf.user.setStatus("dnd")
 message.channel.send("DogeOS - Emergency System Initilized")
+		    message.channel.send("Initilizing DogeOS Emergency Token Shutdown")
+		    
+		    
+		    
+		    Fluf.destroy();
 Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
 		 
 }
@@ -46,7 +51,12 @@ message.channel.send("Lockdown Squence Initated by DogeOS")
 	Fluf.user.setActivity("Emergency Lockdown - DogeOS")
 	Fluf.user.setStatus("dnd")
 message.channel.send("DogeOS - Emergency System Initilized")
-Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
+		        message.channel.send("Initilizing DogeOS Emergency Token Shutdown")
+		    
+		    
+		    
+		    Fluf.destroy();
+		    Fluf.channels.get("530465514926112819").send("DogeOS Lockdown - ThatPhoenix")
 	    }
 	    
 	
