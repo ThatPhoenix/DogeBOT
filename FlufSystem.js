@@ -68,21 +68,13 @@ message.channel.send("DogeOS - Emergency System Initilized")
 
  Fluf.on('message', message => {
     if (message.content.startsWith("!Vip")) {   
-	    if (message.author.id === "498186211249225728") {
-		message.channel.send("Hi and welcome to Fluf Bot V.I.P Mode! maintained by DogeOS Created by ThatPhoenix")
-message.channel.send("You will soon have BETA Command access so fuck off and come back soon")
-	    }
+	   
 
-	    if (message.author.id === "237579126171631617") {  
-  message.channel.send("Hi and welcome to Fluf Bot V.I.P Mode! maintained by DogeOS Created by ThatPhoenix")
-message.channel.send("You will soon have BETA Command access so fuck off and come back soon")
-	    }
     	    
 
-    if (message.author.id === "441980353242988545") {  
-  message.channel.send("Hi and welcome to Fluf Bot V.I.P Mode! maintained by DogeOS Created by ThatPhoenix")
-message.channel.send("You will soon have BETA Command access so fuck off and come back soon")
-}
+
+  message.channel.send("DogeOS built in bluescreen - Sorry But Fluf Bot VIP Mode has been disabled stay tuned for more.  ")
+
     }	    
 });
 
