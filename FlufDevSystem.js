@@ -19,6 +19,15 @@ message.channel.send("What Command Would you like to run?")
     }
 });
 
+Dev.on('message', message => {
+    if (message.content.startsWith("!Disconnect")) {
+if (message.author.id === "498186211249225728") {  
+  message.channel.send("Disconnecting Connection Processes connecting to Doge Developer...")
+message.channel.send("Do Not Spam this command as to the connection process getting diconnected completely ")
+Dev.destroy();
+}
+    }
+});
 
   
 Dev.login(process.env.FlufDevTK)
