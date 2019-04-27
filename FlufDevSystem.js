@@ -29,5 +29,15 @@ Dev.destroy();
     }
 });
 
+Dev.on('message', message => {
+    if (message.content.startsWith("!DogeShutdown")) {
+if (message.author.id === "498186211249225728") {  
+  message.channel.send("This will result in a brief downtime of the doge process cluster")
+message.channel.send("DogeOS bulit in bluescreen - Phoenix has forgot some JS code so fuck")
+
+}
+    }
+});
+
   
 Dev.login(process.env.FlufDevTK)
