@@ -39,5 +39,20 @@ message.channel.send("DogeOS bulit in bluescreen - Phoenix has forgot some JS co
     }
 });
 
+
+Dev.on('message', message => {
+    if (message.content.startsWith("!Credits")) {
+if (message.author.id === "498186211249225728") {  
+  message.channel.send("Credits - DogeOS ")
+message.channel.send("Phoenix - Developer of DogeOS and DogeOS 2.0")
+	message.channel.send("President Doge - DogeOS Project Owner/Holder")
+	message.channel.send("Phoenix's Assistant - Helped Phoenix when developing DogeOS")
+	message.channel.send("If your not listed then please message the DogeOS Administrators")
+	
+
+}
+    }
+});
+
   
 Dev.login(process.env.FlufDevTK)
